@@ -54,4 +54,4 @@ Si crea la lista di artisti e poi la query per selezionarli.
 Una volta aggiunti i valori ottenuti nella datagrid, bisogna modificare il file xaml.cs.
 In MAUI infatti non esiste datagrid ma la si sostituisce ccon una collectionview. Poi si dichiara il template della
 collection che permette di far vedere come è fatta la riga e gli si dice che è uno stack layout.
-llo xaml bisogna mettere che non si ha datagrid perche in maui non esiste ma si mette una collectionview. poi si da template della collection (vede come è fatta la riga); gli si dice che è uno stacklayout con due label. label test {binding campo}
+llo xaml bisogna mettere che non si ha datagrid perche in maui non esiste ma si mette una collectionview.
