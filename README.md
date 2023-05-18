@@ -9,7 +9,7 @@ Creare attraverso visual studio un nuovo progetto MAUI in linguaggio C#.
 A questo punto dobbiamo aggiungere la libreria sql-net.pcl; per farlo clicchiamo su una una parte qualsiasi del progetto e a questo punto 
 si aprirà una finestra.
 Selezionare gestisci pacchetti NuGet e scegliere la libreria ricercata, ovvero sqlite-net-pcl.
-La nostra applicazione dovrà aprire un Db; scarichiamo quindi il Db di prova dal segeuente link:https://www.sqlitetutorial.net/wp-content/uploads/2018/03/chinook.zip.
+La nostra applicazione dovrà aprire un Db; scarichiamo quindi il Db di prova dal seguente link:https://www.sqlitetutorial.net/wp-content/uploads/2018/03/chinook.zip.
 
 Per quello che riguarda il codice, la problematica più grande è stata nel fatto che sui pc è presente appdata in cui 
 si trovano i nostri file, nei dispositivi mobili invece no.
@@ -54,4 +54,3 @@ Si crea la lista di artisti e poi la query per selezionarli.
 Una volta aggiunti i valori ottenuti nella datagrid, bisogna modificare il file xaml.cs.
 In MAUI infatti non esiste datagrid ma la si sostituisce ccon una collectionview. Poi si dichiara il template della
 collection che permette di far vedere come è fatta la riga e gli si dice che è uno stack layout.
-llo xaml bisogna mettere che non si ha datagrid perche in maui non esiste ma si mette una collectionview.
